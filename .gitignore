@@ -2,3 +2,10 @@
 /.idea
 /eparking.iml
 /server_admin/server-admin.iml
+/gps
+/netty
+/server_hardware/core/target
+/server_hardware/launcher/target
+/server_hardware/redis-client/target
+/server_hardware/tcp-app-server/target
+/server_hardware/tools/target
