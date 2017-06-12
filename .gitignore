@@ -1,11 +1,12 @@
 # Created by .ignore support plugin (hsz.mobi)
 /.idea
 /eparking.iml
-/server_admin/server-admin.iml
+/server-admin/server-admin.iml
+/server-admin/target
 /gps
-/netty
-/server_hardware/core/target
-/server_hardware/launcher/target
-/server_hardware/redis-client/target
-/server_hardware/tcp-app-server/target
-/server_hardware/tools/target
+/nettys
+/server-hardware/core/target
+/server-hardware/launcher/target
+/server-hardware/redis-client/target
+/server-hardware/tcp-app-server/target
+/server-hardware/tools/target

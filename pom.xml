@@ -17,8 +17,9 @@
 
  
     <modules>
-        <module>server_admin</module>
-        <module>server_hardware</module>
+        <module>server-admin</module>
+        <module>server-hardware</module>
+        <module>server-hardware-tests</module>
     </modules>
 
     <!--&lt;!&ndash; for QR gen tool &ndash;&gt;-->
@@ -133,6 +134,11 @@
         <!--<spring.version>4.2.9.RELEASE</spring.version>-->
         <mysql-connector-java.version>5.1.34</mysql-connector-java.version>
         <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
+
+        <qrgen.version>2.2.0</qrgen.version>
+        <commons-lang.version>2.6</commons-lang.version>
+        <junit.version>4.12</junit.version>
+        <mockito-all.version>1.10.19</mockito-all.version>
     </properties>
 
     <dependencies>
@@ -457,12 +463,23 @@
             <scope>provided</scope>
         </dependency>
 
-
+        <dependency>
+            <groupId>junit</groupId>
+            <artifactId>junit</artifactId>
+            <version>${junit.version}</version>
+            <scope>test</scope>
+        </dependency>
         <!--<dependency>-->
             <!--<groupId>org.apache.activemq</groupId>-->
             <!--<artifactId>activemq-all</artifactId>-->
             <!--<version>5.9.1</version>-->
         <!--</dependency>-->
+        <dependency>
+            <groupId>org.mockito</groupId>
+            <artifactId>mockito-all</artifactId>
+            <version>${mockito-all.version}</version>
+            <scope>test</scope>
+        </dependency>
 
 
     </dependencies>

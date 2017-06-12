@@ -5,3 +5,10 @@
 09:36:39.443 INFO - Hardware plain tcp/ip server listening at 8442 port.
 09:36:39.443 INFO - Application server listening at 8443 port.
 09:36:39.444 INFO - Mqtt hardware server listening at 8440 port.
+12:43:34.098 INFO - Using data dir 'C:\Users\jiangs\AppData\Local\Temp\laputa'
+12:43:34.684 INFO - Region : local
+12:43:34.780 INFO - Didn't find custom user certificates.
+12:43:34.782 WARN - ATTENTION. Server certificate paths (cert : 'E:\working_idea\EParking_Server', key : 'E:\working_idea\EParking_Server') not valid. Using embedded server certs and one way ssl. This is not secure. Please replace it with your own certs.
+12:43:36.293 INFO - Hardware plain tcp/ip server listening at 8442 port.
+12:43:36.301 INFO - Application server listening at 8443 port.
+12:43:36.302 INFO - Mqtt hardware server listening at 8440 port.
