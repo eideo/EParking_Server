@@ -10,3 +10,5 @@
 /server-hardware/redis-client/target
 /server-hardware/tcp-app-server/target
 /server-hardware/tools/target
+/server-hardware-tests/target
+/logs
