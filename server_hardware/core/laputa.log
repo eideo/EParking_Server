@@ -1,0 +1,812 @@
+13:32:52.328 INFO  - DB url : jdbc:mysql://localhost:3306/laputa?useUnicode=true&characterEncoding=utf8&characterSetResults=utf8
+13:32:52.335 INFO  - DB user : root
+13:32:52.337 INFO  - Connecting to DB...
+13:32:52.344 DEBUG - HikariPool-1 - configuration:
+13:32:52.350 DEBUG - allowPoolSuspension.............false
+13:32:52.351 DEBUG - autoCommit......................false
+13:32:52.351 DEBUG - catalog.........................none
+13:32:52.351 DEBUG - connectionInitSql...............none
+13:32:52.352 DEBUG - connectionTestQuery............."SELECT 1"
+13:32:52.352 DEBUG - connectionTimeout...............30000
+13:32:52.352 DEBUG - dataSource......................none
+13:32:52.353 DEBUG - dataSourceClassName.............none
+13:32:52.353 DEBUG - dataSourceJNDI..................none
+13:32:52.402 DEBUG - dataSourceProperties............{password=<masked>}
+13:32:52.403 DEBUG - driverClassName.................none
+13:32:52.403 DEBUG - healthCheckProperties...........{}
+13:32:52.403 DEBUG - healthCheckRegistry.............none
+13:32:52.403 DEBUG - idleTimeout.....................600000
+13:32:52.403 DEBUG - initializationFailFast..........true
+13:32:52.403 DEBUG - initializationFailTimeout.......1
+13:32:52.403 DEBUG - isolateInternalQueries..........false
+13:32:52.404 DEBUG - jdbc4ConnectionTest.............false
+13:32:52.404 DEBUG - jdbcUrl........................."jdbc:mysql://localhost:3306/laputa?useUnicode=true&characterEncoding=utf8&characterSetResults=utf8"
+13:32:52.404 DEBUG - leakDetectionThreshold..........0
+13:32:52.404 DEBUG - maxLifetime.....................0
+13:32:52.404 DEBUG - maximumPoolSize.................3
+13:32:52.404 DEBUG - metricRegistry..................none
+13:32:52.404 DEBUG - metricsTrackerFactory...........none
+13:32:52.404 DEBUG - minimumIdle.....................3
+13:32:52.405 DEBUG - password........................<masked>
+13:32:52.405 DEBUG - poolName........................"HikariPool-1"
+13:32:52.405 DEBUG - readOnly........................false
+13:32:52.405 DEBUG - registerMbeans..................false
+13:32:52.405 DEBUG - scheduledExecutor...............none
+13:32:52.405 DEBUG - scheduledExecutorService........internal
+13:32:52.405 DEBUG - threadFactory...................internal
+13:32:52.405 DEBUG - transactionIsolation............default
+13:32:52.405 DEBUG - username........................"root"
+13:32:52.406 DEBUG - validationTimeout...............5000
+13:32:52.861 INFO  - HikariPool-1 - Starting...
+13:32:53.500 DEBUG - HikariPool-1 - Added connection com.mysql.jdbc.JDBC4Connection@43195e57
+13:32:53.503 INFO  - HikariPool-1 - Start completed.
+13:32:53.556 DEBUG - HikariPool-1 - Executed rollback on connection com.mysql.jdbc.JDBC4Connection@43195e57 due to dirty commit state on close().
+13:32:53.556 ERROR - Error getting DB version.
+13:32:53.556 INFO  - Connected to database successfully.
+13:32:53.604 DEBUG - HikariPool-1 - Pool stats (total=1, active=1, idle=0, waiting=1)
+13:32:53.616 DEBUG - HikariPool-1 - Added connection com.mysql.jdbc.JDBC4Connection@16ba9fec
+13:32:53.632 DEBUG - HikariPool-1 - Added connection com.mysql.jdbc.JDBC4Connection@44768d71
+13:32:53.639 INFO  - HikariPool-1 - Shutdown initiated...
+13:32:53.640 DEBUG - HikariPool-1 - Before shutdown stats (total=3, active=2, idle=1, waiting=0)
+13:32:53.644 DEBUG - HikariPool-1 - Closing connection com.mysql.jdbc.JDBC4Connection@44768d71: (connection evicted)
+13:32:53.677 DEBUG - HikariPool-1 - After shutdown stats (total=0, active=0, idle=0, waiting=0)
+13:32:53.677 INFO  - HikariPool-1 - Shutdown completed.
+13:34:51.621 INFO  - DB url : jdbc:mysql://localhost:3306/laputa?useUnicode=true&characterEncoding=utf8&characterSetResults=utf8
+13:34:51.623 INFO  - DB user : root
+13:34:51.624 INFO  - Connecting to DB...
+13:34:51.627 DEBUG - HikariPool-1 - configuration:
+13:34:51.630 DEBUG - allowPoolSuspension.............false
+13:34:51.631 DEBUG - autoCommit......................false
+13:34:51.631 DEBUG - catalog.........................none
+13:34:51.631 DEBUG - connectionInitSql...............none
+13:34:51.631 DEBUG - connectionTestQuery............."SELECT 1"
+13:34:51.631 DEBUG - connectionTimeout...............30000
+13:34:51.631 DEBUG - dataSource......................none
+13:34:51.631 DEBUG - dataSourceClassName.............none
+13:34:51.632 DEBUG - dataSourceJNDI..................none
+13:34:51.680 DEBUG - dataSourceProperties............{password=<masked>}
+13:34:51.681 DEBUG - driverClassName.................none
+13:34:51.681 DEBUG - healthCheckProperties...........{}
+13:34:51.681 DEBUG - healthCheckRegistry.............none
+13:34:51.681 DEBUG - idleTimeout.....................600000
+13:34:51.681 DEBUG - initializationFailFast..........true
+13:34:51.681 DEBUG - initializationFailTimeout.......1
+13:34:51.681 DEBUG - isolateInternalQueries..........false
+13:34:51.681 DEBUG - jdbc4ConnectionTest.............false
+13:34:51.682 DEBUG - jdbcUrl........................."jdbc:mysql://localhost:3306/laputa?useUnicode=true&characterEncoding=utf8&characterSetResults=utf8"
+13:34:51.682 DEBUG - leakDetectionThreshold..........0
+13:34:51.682 DEBUG - maxLifetime.....................0
+13:34:51.682 DEBUG - maximumPoolSize.................3
+13:34:51.686 DEBUG - metricRegistry..................none
+13:34:51.686 DEBUG - metricsTrackerFactory...........none
+13:34:51.686 DEBUG - minimumIdle.....................3
+13:34:51.686 DEBUG - password........................<masked>
+13:34:51.687 DEBUG - poolName........................"HikariPool-1"
+13:34:51.687 DEBUG - readOnly........................false
+13:34:51.687 DEBUG - registerMbeans..................false
+13:34:51.687 DEBUG - scheduledExecutor...............none
+13:34:51.687 DEBUG - scheduledExecutorService........internal
+13:34:51.687 DEBUG - threadFactory...................internal
+13:34:51.687 DEBUG - transactionIsolation............default
+13:34:51.687 DEBUG - username........................"root"
+13:34:51.688 DEBUG - validationTimeout...............5000
+13:34:51.689 INFO  - HikariPool-1 - Starting...
+13:34:52.191 DEBUG - HikariPool-1 - Added connection com.mysql.jdbc.JDBC4Connection@43195e57
+13:34:52.194 INFO  - HikariPool-1 - Start completed.
+13:34:52.294 ERROR - Current Postgres version is lower than minimum required 9.5.0 version. PLEASE UPDATE YOUR DB.
+13:34:52.294 INFO  - Connected to database successfully.
+13:34:52.297 DEBUG - HikariPool-1 - Pool stats (total=1, active=1, idle=0, waiting=1)
+13:34:52.344 DEBUG - HikariPool-1 - Added connection com.mysql.jdbc.JDBC4Connection@19cb4283
+13:34:52.372 DEBUG - HikariPool-1 - Added connection com.mysql.jdbc.JDBC4Connection@285eeda8
+13:34:52.373 INFO  - HikariPool-1 - Shutdown initiated...
+13:34:52.373 DEBUG - HikariPool-1 - Before shutdown stats (total=3, active=2, idle=1, waiting=0)
+13:34:52.393 DEBUG - HikariPool-1 - Closing connection com.mysql.jdbc.JDBC4Connection@285eeda8: (connection evicted)
+13:34:52.395 DEBUG - HikariPool-1 - After shutdown stats (total=0, active=0, idle=0, waiting=0)
+13:34:52.395 INFO  - HikariPool-1 - Shutdown completed.
+13:36:44.795 INFO  - DB url : jdbc:mysql://localhost:3306/laputa?useUnicode=true&characterEncoding=utf8&characterSetResults=utf8
+13:36:44.797 INFO  - DB user : root
+13:36:44.797 INFO  - Connecting to DB...
+13:36:44.800 DEBUG - HikariPool-1 - configuration:
+13:36:44.804 DEBUG - allowPoolSuspension.............false
+13:36:44.804 DEBUG - autoCommit......................false
+13:36:44.804 DEBUG - catalog.........................none
+13:36:44.805 DEBUG - connectionInitSql...............none
+13:36:44.805 DEBUG - connectionTestQuery............."SELECT 1"
+13:36:44.805 DEBUG - connectionTimeout...............30000
+13:36:44.805 DEBUG - dataSource......................none
+13:36:44.805 DEBUG - dataSourceClassName.............none
+13:36:44.805 DEBUG - dataSourceJNDI..................none
+13:36:44.870 DEBUG - dataSourceProperties............{password=<masked>}
+13:36:44.870 DEBUG - driverClassName.................none
+13:36:44.870 DEBUG - healthCheckProperties...........{}
+13:36:44.871 DEBUG - healthCheckRegistry.............none
+13:36:44.871 DEBUG - idleTimeout.....................600000
+13:36:44.871 DEBUG - initializationFailFast..........true
+13:36:44.871 DEBUG - initializationFailTimeout.......1
+13:36:44.871 DEBUG - isolateInternalQueries..........false
+13:36:44.871 DEBUG - jdbc4ConnectionTest.............false
+13:36:44.871 DEBUG - jdbcUrl........................."jdbc:mysql://localhost:3306/laputa?useUnicode=true&characterEncoding=utf8&characterSetResults=utf8"
+13:36:44.872 DEBUG - leakDetectionThreshold..........0
+13:36:44.872 DEBUG - maxLifetime.....................0
+13:36:44.872 DEBUG - maximumPoolSize.................3
+13:36:44.872 DEBUG - metricRegistry..................none
+13:36:44.873 DEBUG - metricsTrackerFactory...........none
+13:36:44.873 DEBUG - minimumIdle.....................3
+13:36:44.873 DEBUG - password........................<masked>
+13:36:44.873 DEBUG - poolName........................"HikariPool-1"
+13:36:44.873 DEBUG - readOnly........................false
+13:36:44.874 DEBUG - registerMbeans..................false
+13:36:44.874 DEBUG - scheduledExecutor...............none
+13:36:44.874 DEBUG - scheduledExecutorService........internal
+13:36:44.874 DEBUG - threadFactory...................internal
+13:36:44.874 DEBUG - transactionIsolation............default
+13:36:44.874 DEBUG - username........................"root"
+13:36:44.874 DEBUG - validationTimeout...............5000
+13:36:44.876 INFO  - HikariPool-1 - Starting...
+13:36:45.271 DEBUG - HikariPool-1 - Added connection com.mysql.jdbc.JDBC4Connection@43195e57
+13:36:45.275 INFO  - HikariPool-1 - Start completed.
+13:36:45.306 ERROR - Current Postgres version is lower than minimum required 9.5.0 version. PLEASE UPDATE YOUR DB.
+13:36:45.306 INFO  - Connected to database successfully.
+13:36:45.359 DEBUG - HikariPool-1 - Added connection com.mysql.jdbc.JDBC4Connection@10e279cf
+13:36:45.375 DEBUG - HikariPool-1 - Pool stats (total=2, active=2, idle=0, waiting=0)
+13:36:45.434 INFO  - HikariPool-1 - Shutdown initiated...
+13:36:45.435 DEBUG - HikariPool-1 - Before shutdown stats (total=2, active=2, idle=0, waiting=0)
+13:36:45.438 DEBUG - HikariPool-1 - Added connection com.mysql.jdbc.JDBC4Connection@76cf5c19
+13:36:45.439 DEBUG - HikariPool-1 - After adding stats (total=3, active=2, idle=1, waiting=0)
+13:36:45.451 DEBUG - HikariPool-1 - Closing connection com.mysql.jdbc.JDBC4Connection@76cf5c19: (connection evicted)
+13:36:45.452 DEBUG - HikariPool-1 - After shutdown stats (total=0, active=0, idle=0, waiting=0)
+13:36:45.453 INFO  - HikariPool-1 - Shutdown completed.
+13:38:32.449 INFO  - DB url : jdbc:mysql://localhost:3306/laputa?useUnicode=true&characterEncoding=utf8&characterSetResults=utf8
+13:38:32.450 INFO  - DB user : root
+13:38:32.451 INFO  - Connecting to DB...
+13:38:32.454 DEBUG - HikariPool-1 - configuration:
+13:38:32.459 DEBUG - allowPoolSuspension.............false
+13:38:32.459 DEBUG - autoCommit......................false
+13:38:32.459 DEBUG - catalog.........................none
+13:38:32.459 DEBUG - connectionInitSql...............none
+13:38:32.459 DEBUG - connectionTestQuery............."SELECT 1"
+13:38:32.460 DEBUG - connectionTimeout...............30000
+13:38:32.460 DEBUG - dataSource......................none
+13:38:32.460 DEBUG - dataSourceClassName.............none
+13:38:32.460 DEBUG - dataSourceJNDI..................none
+13:38:32.506 DEBUG - dataSourceProperties............{password=<masked>}
+13:38:32.506 DEBUG - driverClassName.................none
+13:38:32.506 DEBUG - healthCheckProperties...........{}
+13:38:32.506 DEBUG - healthCheckRegistry.............none
+13:38:32.507 DEBUG - idleTimeout.....................600000
+13:38:32.507 DEBUG - initializationFailFast..........true
+13:38:32.507 DEBUG - initializationFailTimeout.......1
+13:38:32.507 DEBUG - isolateInternalQueries..........false
+13:38:32.507 DEBUG - jdbc4ConnectionTest.............false
+13:38:32.507 DEBUG - jdbcUrl........................."jdbc:mysql://localhost:3306/laputa?useUnicode=true&characterEncoding=utf8&characterSetResults=utf8"
+13:38:32.507 DEBUG - leakDetectionThreshold..........0
+13:38:32.507 DEBUG - maxLifetime.....................0
+13:38:32.508 DEBUG - maximumPoolSize.................3
+13:38:32.508 DEBUG - metricRegistry..................none
+13:38:32.508 DEBUG - metricsTrackerFactory...........none
+13:38:32.508 DEBUG - minimumIdle.....................3
+13:38:32.508 DEBUG - password........................<masked>
+13:38:32.509 DEBUG - poolName........................"HikariPool-1"
+13:38:32.509 DEBUG - readOnly........................false
+13:38:32.509 DEBUG - registerMbeans..................false
+13:38:32.509 DEBUG - scheduledExecutor...............none
+13:38:32.509 DEBUG - scheduledExecutorService........internal
+13:38:32.509 DEBUG - threadFactory...................internal
+13:38:32.509 DEBUG - transactionIsolation............default
+13:38:32.510 DEBUG - username........................"root"
+13:38:32.510 DEBUG - validationTimeout...............5000
+13:38:32.511 INFO  - HikariPool-1 - Starting...
+13:38:32.898 DEBUG - HikariPool-1 - Added connection com.mysql.jdbc.JDBC4Connection@43195e57
+13:38:32.901 INFO  - HikariPool-1 - Start completed.
+13:38:32.931 INFO  - dbVersion:5
+13:38:32.931 ERROR - Current Postgres version is lower than minimum required 9.5.0 version. PLEASE UPDATE YOUR DB.
+13:38:32.932 INFO  - Connected to database successfully.
+13:38:32.975 DEBUG - HikariPool-1 - Added connection com.mysql.jdbc.JDBC4Connection@845f650
+13:38:32.995 INFO  - HikariPool-1 - Shutdown initiated...
+13:38:32.995 DEBUG - HikariPool-1 - Before shutdown stats (total=2, active=2, idle=0, waiting=0)
+13:38:33.006 DEBUG - HikariPool-1 - After shutdown stats (total=0, active=0, idle=0, waiting=0)
+13:38:33.006 INFO  - HikariPool-1 - Shutdown completed.
+13:40:19.475 INFO  - DB url : jdbc:mysql://localhost:3306/laputa?useUnicode=true&characterEncoding=utf8&characterSetResults=utf8
+13:40:19.476 INFO  - DB user : root
+13:40:19.477 INFO  - Connecting to DB...
+13:40:19.480 DEBUG - HikariPool-1 - configuration:
+13:40:19.484 DEBUG - allowPoolSuspension.............false
+13:40:19.484 DEBUG - autoCommit......................false
+13:40:19.484 DEBUG - catalog.........................none
+13:40:19.484 DEBUG - connectionInitSql...............none
+13:40:19.484 DEBUG - connectionTestQuery............."SELECT 1"
+13:40:19.485 DEBUG - connectionTimeout...............30000
+13:40:19.485 DEBUG - dataSource......................none
+13:40:19.485 DEBUG - dataSourceClassName.............none
+13:40:19.485 DEBUG - dataSourceJNDI..................none
+13:40:19.532 DEBUG - dataSourceProperties............{password=<masked>}
+13:40:19.532 DEBUG - driverClassName.................none
+13:40:19.532 DEBUG - healthCheckProperties...........{}
+13:40:19.532 DEBUG - healthCheckRegistry.............none
+13:40:19.532 DEBUG - idleTimeout.....................600000
+13:40:19.533 DEBUG - initializationFailFast..........true
+13:40:19.533 DEBUG - initializationFailTimeout.......1
+13:40:19.533 DEBUG - isolateInternalQueries..........false
+13:40:19.533 DEBUG - jdbc4ConnectionTest.............false
+13:40:19.533 DEBUG - jdbcUrl........................."jdbc:mysql://localhost:3306/laputa?useUnicode=true&characterEncoding=utf8&characterSetResults=utf8"
+13:40:19.534 DEBUG - leakDetectionThreshold..........0
+13:40:19.534 DEBUG - maxLifetime.....................0
+13:40:19.534 DEBUG - maximumPoolSize.................3
+13:40:19.534 DEBUG - metricRegistry..................none
+13:40:19.534 DEBUG - metricsTrackerFactory...........none
+13:40:19.534 DEBUG - minimumIdle.....................3
+13:40:19.534 DEBUG - password........................<masked>
+13:40:19.534 DEBUG - poolName........................"HikariPool-1"
+13:40:19.534 DEBUG - readOnly........................false
+13:40:19.535 DEBUG - registerMbeans..................false
+13:40:19.535 DEBUG - scheduledExecutor...............none
+13:40:19.535 DEBUG - scheduledExecutorService........internal
+13:40:19.535 DEBUG - threadFactory...................internal
+13:40:19.535 DEBUG - transactionIsolation............default
+13:40:19.535 DEBUG - username........................"root"
+13:40:19.535 DEBUG - validationTimeout...............5000
+13:40:19.536 INFO  - HikariPool-1 - Starting...
+13:40:19.859 DEBUG - HikariPool-1 - Added connection com.mysql.jdbc.JDBC4Connection@43195e57
+13:40:19.861 INFO  - HikariPool-1 - Start completed.
+13:40:19.880 INFO  - dbVersion:5
+13:40:19.889 DEBUG - HikariPool-1 - Executed rollback on connection com.mysql.jdbc.JDBC4Connection@43195e57 due to dirty commit state on close().
+13:40:19.889 ERROR - Error getting DB version.
+13:40:19.890 INFO  - Connected to database successfully.
+13:40:19.936 DEBUG - HikariPool-1 - Added connection com.mysql.jdbc.JDBC4Connection@845f650
+13:40:19.962 DEBUG - HikariPool-1 - Pool stats (total=2, active=2, idle=0, waiting=0)
+13:40:19.990 INFO  - HikariPool-1 - Shutdown initiated...
+13:40:19.990 DEBUG - HikariPool-1 - Before shutdown stats (total=2, active=2, idle=0, waiting=0)
+13:40:20.033 DEBUG - HikariPool-1 - Added connection com.mysql.jdbc.JDBC4Connection@337f3fe7
+13:40:20.034 DEBUG - HikariPool-1 - After adding stats (total=3, active=2, idle=1, waiting=0)
+13:40:20.046 DEBUG - HikariPool-1 - Closing connection com.mysql.jdbc.JDBC4Connection@337f3fe7: (connection evicted)
+13:40:20.047 DEBUG - HikariPool-1 - After shutdown stats (total=0, active=0, idle=0, waiting=0)
+13:40:20.048 INFO  - HikariPool-1 - Shutdown completed.
+13:40:48.889 INFO  - DB url : jdbc:mysql://localhost:3306/laputa?useUnicode=true&characterEncoding=utf8&characterSetResults=utf8
+13:40:48.891 INFO  - DB user : root
+13:40:48.892 INFO  - Connecting to DB...
+13:40:48.896 DEBUG - HikariPool-1 - configuration:
+13:40:48.904 DEBUG - allowPoolSuspension.............false
+13:40:48.904 DEBUG - autoCommit......................false
+13:40:48.905 DEBUG - catalog.........................none
+13:40:48.905 DEBUG - connectionInitSql...............none
+13:40:48.905 DEBUG - connectionTestQuery............."SELECT 1"
+13:40:48.905 DEBUG - connectionTimeout...............30000
+13:40:48.906 DEBUG - dataSource......................none
+13:40:48.906 DEBUG - dataSourceClassName.............none
+13:40:48.906 DEBUG - dataSourceJNDI..................none
+13:40:49.002 DEBUG - dataSourceProperties............{password=<masked>}
+13:40:49.002 DEBUG - driverClassName.................none
+13:40:49.003 DEBUG - healthCheckProperties...........{}
+13:40:49.003 DEBUG - healthCheckRegistry.............none
+13:40:49.003 DEBUG - idleTimeout.....................600000
+13:40:49.003 DEBUG - initializationFailFast..........true
+13:40:49.003 DEBUG - initializationFailTimeout.......1
+13:40:49.003 DEBUG - isolateInternalQueries..........false
+13:40:49.003 DEBUG - jdbc4ConnectionTest.............false
+13:40:49.003 DEBUG - jdbcUrl........................."jdbc:mysql://localhost:3306/laputa?useUnicode=true&characterEncoding=utf8&characterSetResults=utf8"
+13:40:49.004 DEBUG - leakDetectionThreshold..........0
+13:40:49.004 DEBUG - maxLifetime.....................0
+13:40:49.004 DEBUG - maximumPoolSize.................3
+13:40:49.004 DEBUG - metricRegistry..................none
+13:40:49.004 DEBUG - metricsTrackerFactory...........none
+13:40:49.004 DEBUG - minimumIdle.....................3
+13:40:49.004 DEBUG - password........................<masked>
+13:40:49.004 DEBUG - poolName........................"HikariPool-1"
+13:40:49.004 DEBUG - readOnly........................false
+13:40:49.004 DEBUG - registerMbeans..................false
+13:40:49.005 DEBUG - scheduledExecutor...............none
+13:40:49.005 DEBUG - scheduledExecutorService........internal
+13:40:49.005 DEBUG - threadFactory...................internal
+13:40:49.005 DEBUG - transactionIsolation............default
+13:40:49.005 DEBUG - username........................"root"
+13:40:49.005 DEBUG - validationTimeout...............5000
+13:40:49.006 INFO  - HikariPool-1 - Starting...
+13:40:49.475 DEBUG - HikariPool-1 - Added connection com.mysql.jdbc.JDBC4Connection@43195e57
+13:40:49.478 INFO  - HikariPool-1 - Start completed.
+13:40:49.590 INFO  - dbVersion:5
+13:40:49.591 INFO  - dbVersion:5.7.17-log
+13:40:49.602 ERROR - Current Postgres version is lower than minimum required 9.5.0 version. PLEASE UPDATE YOUR DB.
+13:40:49.602 INFO  - Connected to database successfully.
+13:40:49.619 DEBUG - HikariPool-1 - Pool stats (total=1, active=1, idle=0, waiting=1)
+13:40:49.663 DEBUG - HikariPool-1 - Added connection com.mysql.jdbc.JDBC4Connection@43550f97
+13:40:49.675 INFO  - HikariPool-1 - Shutdown initiated...
+13:40:49.675 DEBUG - HikariPool-1 - Before shutdown stats (total=2, active=2, idle=0, waiting=0)
+13:40:49.710 DEBUG - HikariPool-1 - Added connection com.mysql.jdbc.JDBC4Connection@3a575b72
+13:40:49.825 DEBUG - HikariPool-1 - Closing connection com.mysql.jdbc.JDBC4Connection@3a575b72: (connection evicted)
+13:40:49.827 DEBUG - HikariPool-1 - After shutdown stats (total=0, active=0, idle=0, waiting=0)
+13:40:49.828 INFO  - HikariPool-1 - Shutdown completed.
+13:44:49.458 INFO  - DB url : jdbc:mysql://localhost:3306/laputa?useUnicode=true&characterEncoding=utf8&characterSetResults=utf8
+13:44:49.460 INFO  - DB user : root
+13:44:49.460 INFO  - Connecting to DB...
+13:44:49.464 DEBUG - HikariPool-1 - configuration:
+13:44:49.473 DEBUG - allowPoolSuspension.............false
+13:44:49.473 DEBUG - autoCommit......................false
+13:44:49.473 DEBUG - catalog.........................none
+13:44:49.473 DEBUG - connectionInitSql...............none
+13:44:49.474 DEBUG - connectionTestQuery............."SELECT 1"
+13:44:49.474 DEBUG - connectionTimeout...............30000
+13:44:49.474 DEBUG - dataSource......................none
+13:44:49.474 DEBUG - dataSourceClassName.............none
+13:44:49.474 DEBUG - dataSourceJNDI..................none
+13:44:49.519 DEBUG - dataSourceProperties............{password=<masked>}
+13:44:49.519 DEBUG - driverClassName.................none
+13:44:49.519 DEBUG - healthCheckProperties...........{}
+13:44:49.520 DEBUG - healthCheckRegistry.............none
+13:44:49.520 DEBUG - idleTimeout.....................600000
+13:44:49.520 DEBUG - initializationFailFast..........true
+13:44:49.520 DEBUG - initializationFailTimeout.......1
+13:44:49.520 DEBUG - isolateInternalQueries..........false
+13:44:49.520 DEBUG - jdbc4ConnectionTest.............false
+13:44:49.520 DEBUG - jdbcUrl........................."jdbc:mysql://localhost:3306/laputa?useUnicode=true&characterEncoding=utf8&characterSetResults=utf8"
+13:44:49.521 DEBUG - leakDetectionThreshold..........0
+13:44:49.521 DEBUG - maxLifetime.....................0
+13:44:49.521 DEBUG - maximumPoolSize.................3
+13:44:49.521 DEBUG - metricRegistry..................none
+13:44:49.521 DEBUG - metricsTrackerFactory...........none
+13:44:49.521 DEBUG - minimumIdle.....................3
+13:44:49.521 DEBUG - password........................<masked>
+13:44:49.521 DEBUG - poolName........................"HikariPool-1"
+13:44:49.521 DEBUG - readOnly........................false
+13:44:49.522 DEBUG - registerMbeans..................false
+13:44:49.522 DEBUG - scheduledExecutor...............none
+13:44:49.522 DEBUG - scheduledExecutorService........internal
+13:44:49.522 DEBUG - threadFactory...................internal
+13:44:49.522 DEBUG - transactionIsolation............default
+13:44:49.522 DEBUG - username........................"root"
+13:44:49.522 DEBUG - validationTimeout...............5000
+13:44:49.523 INFO  - HikariPool-1 - Starting...
+13:44:49.977 DEBUG - HikariPool-1 - Added connection com.mysql.jdbc.JDBC4Connection@43195e57
+13:44:49.990 INFO  - HikariPool-1 - Start completed.
+13:44:50.045 DEBUG - dbVersion :{5.7.17-log}
+13:44:50.066 INFO  - Connected to database successfully.
+13:44:50.101 DEBUG - HikariPool-1 - Pool stats (total=1, active=1, idle=0, waiting=1)
+13:44:50.238 DEBUG - HikariPool-1 - Added connection com.mysql.jdbc.JDBC4Connection@2ad4c0a9
+13:44:50.263 DEBUG - HikariPool-1 - Added connection com.mysql.jdbc.JDBC4Connection@3cc6810c
+13:44:50.774 INFO  - HikariPool-1 - Shutdown initiated...
+13:44:50.775 DEBUG - HikariPool-1 - Before shutdown stats (total=3, active=2, idle=1, waiting=0)
+13:44:50.825 DEBUG - HikariPool-1 - Closing connection com.mysql.jdbc.JDBC4Connection@3cc6810c: (connection evicted)
+13:44:50.827 DEBUG - HikariPool-1 - After shutdown stats (total=0, active=0, idle=0, waiting=0)
+13:44:50.827 INFO  - HikariPool-1 - Shutdown completed.
+13:45:55.006 INFO  - DB url : jdbc:mysql://localhost:3306/laputa?useUnicode=true&characterEncoding=utf8&characterSetResults=utf8
+13:45:55.008 INFO  - DB user : root
+13:45:55.008 INFO  - Connecting to DB...
+13:45:55.011 DEBUG - HikariPool-1 - configuration:
+13:45:55.016 DEBUG - allowPoolSuspension.............false
+13:45:55.016 DEBUG - autoCommit......................false
+13:45:55.016 DEBUG - catalog.........................none
+13:45:55.016 DEBUG - connectionInitSql...............none
+13:45:55.016 DEBUG - connectionTestQuery............."SELECT 1"
+13:45:55.017 DEBUG - connectionTimeout...............30000
+13:45:55.018 DEBUG - dataSource......................none
+13:45:55.018 DEBUG - dataSourceClassName.............none
+13:45:55.018 DEBUG - dataSourceJNDI..................none
+13:45:55.062 DEBUG - dataSourceProperties............{password=<masked>}
+13:45:55.062 DEBUG - driverClassName.................none
+13:45:55.063 DEBUG - healthCheckProperties...........{}
+13:45:55.063 DEBUG - healthCheckRegistry.............none
+13:45:55.063 DEBUG - idleTimeout.....................600000
+13:45:55.063 DEBUG - initializationFailFast..........true
+13:45:55.063 DEBUG - initializationFailTimeout.......1
+13:45:55.065 DEBUG - isolateInternalQueries..........false
+13:45:55.066 DEBUG - jdbc4ConnectionTest.............false
+13:45:55.066 DEBUG - jdbcUrl........................."jdbc:mysql://localhost:3306/laputa?useUnicode=true&characterEncoding=utf8&characterSetResults=utf8"
+13:45:55.066 DEBUG - leakDetectionThreshold..........0
+13:45:55.066 DEBUG - maxLifetime.....................0
+13:45:55.066 DEBUG - maximumPoolSize.................3
+13:45:55.066 DEBUG - metricRegistry..................none
+13:45:55.066 DEBUG - metricsTrackerFactory...........none
+13:45:55.066 DEBUG - minimumIdle.....................3
+13:45:55.068 DEBUG - password........................<masked>
+13:45:55.068 DEBUG - poolName........................"HikariPool-1"
+13:45:55.068 DEBUG - readOnly........................false
+13:45:55.068 DEBUG - registerMbeans..................false
+13:45:55.068 DEBUG - scheduledExecutor...............none
+13:45:55.068 DEBUG - scheduledExecutorService........internal
+13:45:55.068 DEBUG - threadFactory...................internal
+13:45:55.069 DEBUG - transactionIsolation............default
+13:45:55.069 DEBUG - username........................"root"
+13:45:55.070 DEBUG - validationTimeout...............5000
+13:45:55.071 INFO  - HikariPool-1 - Starting...
+13:45:55.548 DEBUG - HikariPool-1 - Added connection com.mysql.jdbc.JDBC4Connection@43195e57
+13:45:55.552 INFO  - HikariPool-1 - Start completed.
+13:45:55.593 DEBUG - dbVersion :{5.7.17-log}
+13:45:55.607 INFO  - Connected to database successfully.
+13:45:55.638 DEBUG - HikariPool-1 - Added connection com.mysql.jdbc.JDBC4Connection@5a29a4fd
+13:45:55.652 DEBUG - HikariPool-1 - Pool stats (total=2, active=2, idle=0, waiting=0)
+13:45:55.674 DEBUG - HikariPool-1 - Added connection com.mysql.jdbc.JDBC4Connection@5fc38301
+13:45:55.674 DEBUG - HikariPool-1 - After adding stats (total=3, active=2, idle=1, waiting=0)
+13:45:56.464 INFO  - HikariPool-1 - Shutdown initiated...
+13:45:56.465 DEBUG - HikariPool-1 - Before shutdown stats (total=3, active=1, idle=2, waiting=0)
+13:45:56.477 DEBUG - HikariPool-1 - Closing connection com.mysql.jdbc.JDBC4Connection@5a29a4fd: (connection evicted)
+13:45:56.479 DEBUG - HikariPool-1 - Closing connection com.mysql.jdbc.JDBC4Connection@5fc38301: (connection evicted)
+13:45:56.479 DEBUG - HikariPool-1 - After shutdown stats (total=0, active=0, idle=0, waiting=0)
+13:45:56.479 INFO  - HikariPool-1 - Shutdown completed.
+13:47:54.720 INFO  - DB url : jdbc:mysql://localhost:3306/laputa?useUnicode=true&characterEncoding=utf8&characterSetResults=utf8
+13:47:54.721 INFO  - DB user : root
+13:47:54.722 INFO  - Connecting to DB...
+13:47:54.725 DEBUG - HikariPool-1 - configuration:
+13:47:54.729 DEBUG - allowPoolSuspension.............false
+13:47:54.729 DEBUG - autoCommit......................false
+13:47:54.729 DEBUG - catalog.........................none
+13:47:54.730 DEBUG - connectionInitSql...............none
+13:47:54.730 DEBUG - connectionTestQuery............."SELECT 1"
+13:47:54.730 DEBUG - connectionTimeout...............30000
+13:47:54.730 DEBUG - dataSource......................none
+13:47:54.730 DEBUG - dataSourceClassName.............none
+13:47:54.730 DEBUG - dataSourceJNDI..................none
+13:47:54.781 DEBUG - dataSourceProperties............{password=<masked>}
+13:47:54.782 DEBUG - driverClassName.................none
+13:47:54.782 DEBUG - healthCheckProperties...........{}
+13:47:54.782 DEBUG - healthCheckRegistry.............none
+13:47:54.782 DEBUG - idleTimeout.....................600000
+13:47:54.782 DEBUG - initializationFailFast..........true
+13:47:54.782 DEBUG - initializationFailTimeout.......1
+13:47:54.783 DEBUG - isolateInternalQueries..........false
+13:47:54.783 DEBUG - jdbc4ConnectionTest.............false
+13:47:54.783 DEBUG - jdbcUrl........................."jdbc:mysql://localhost:3306/laputa?useUnicode=true&characterEncoding=utf8&characterSetResults=utf8"
+13:47:54.783 DEBUG - leakDetectionThreshold..........0
+13:47:54.783 DEBUG - maxLifetime.....................0
+13:47:54.784 DEBUG - maximumPoolSize.................3
+13:47:54.784 DEBUG - metricRegistry..................none
+13:47:54.784 DEBUG - metricsTrackerFactory...........none
+13:47:54.784 DEBUG - minimumIdle.....................3
+13:47:54.784 DEBUG - password........................<masked>
+13:47:54.784 DEBUG - poolName........................"HikariPool-1"
+13:47:54.785 DEBUG - readOnly........................false
+13:47:54.785 DEBUG - registerMbeans..................false
+13:47:54.785 DEBUG - scheduledExecutor...............none
+13:47:54.785 DEBUG - scheduledExecutorService........internal
+13:47:54.785 DEBUG - threadFactory...................internal
+13:47:54.785 DEBUG - transactionIsolation............default
+13:47:54.785 DEBUG - username........................"root"
+13:47:54.786 DEBUG - validationTimeout...............5000
+13:47:54.787 INFO  - HikariPool-1 - Starting...
+13:47:55.386 DEBUG - HikariPool-1 - Added connection com.mysql.jdbc.JDBC4Connection@43195e57
+13:47:55.390 INFO  - HikariPool-1 - Start completed.
+13:47:55.423 DEBUG - dbVersion :{5.7.17-log}
+13:47:55.435 INFO  - Connected to database successfully.
+13:47:55.523 DEBUG - HikariPool-1 - Pool stats (total=1, active=1, idle=0, waiting=1)
+13:47:55.531 DEBUG - HikariPool-1 - Added connection com.mysql.jdbc.JDBC4Connection@845f650
+13:47:55.637 DEBUG - HikariPool-1 - Added connection com.mysql.jdbc.JDBC4Connection@2e475b68
+13:47:56.163 INFO  - HikariPool-1 - Shutdown initiated...
+13:47:56.163 DEBUG - HikariPool-1 - Before shutdown stats (total=3, active=1, idle=2, waiting=0)
+13:47:56.166 DEBUG - HikariPool-1 - Closing connection com.mysql.jdbc.JDBC4Connection@845f650: (connection evicted)
+13:47:56.169 DEBUG - HikariPool-1 - Closing connection com.mysql.jdbc.JDBC4Connection@2e475b68: (connection evicted)
+13:47:56.176 DEBUG - HikariPool-1 - After shutdown stats (total=0, active=0, idle=0, waiting=0)
+13:47:56.176 INFO  - HikariPool-1 - Shutdown completed.
+13:48:04.651 INFO  - DB url : jdbc:mysql://localhost:3306/laputa?useUnicode=true&characterEncoding=utf8&characterSetResults=utf8
+13:48:04.652 INFO  - DB user : root
+13:48:04.653 INFO  - Connecting to DB...
+13:48:04.656 DEBUG - HikariPool-1 - configuration:
+13:48:04.662 DEBUG - allowPoolSuspension.............false
+13:48:04.662 DEBUG - autoCommit......................false
+13:48:04.663 DEBUG - catalog.........................none
+13:48:04.663 DEBUG - connectionInitSql...............none
+13:48:04.663 DEBUG - connectionTestQuery............."SELECT 1"
+13:48:04.663 DEBUG - connectionTimeout...............30000
+13:48:04.663 DEBUG - dataSource......................none
+13:48:04.663 DEBUG - dataSourceClassName.............none
+13:48:04.663 DEBUG - dataSourceJNDI..................none
+13:48:04.716 DEBUG - dataSourceProperties............{password=<masked>}
+13:48:04.716 DEBUG - driverClassName.................none
+13:48:04.716 DEBUG - healthCheckProperties...........{}
+13:48:04.716 DEBUG - healthCheckRegistry.............none
+13:48:04.716 DEBUG - idleTimeout.....................600000
+13:48:04.716 DEBUG - initializationFailFast..........true
+13:48:04.716 DEBUG - initializationFailTimeout.......1
+13:48:04.717 DEBUG - isolateInternalQueries..........false
+13:48:04.717 DEBUG - jdbc4ConnectionTest.............false
+13:48:04.717 DEBUG - jdbcUrl........................."jdbc:mysql://localhost:3306/laputa?useUnicode=true&characterEncoding=utf8&characterSetResults=utf8"
+13:48:04.717 DEBUG - leakDetectionThreshold..........0
+13:48:04.717 DEBUG - maxLifetime.....................0
+13:48:04.717 DEBUG - maximumPoolSize.................3
+13:48:04.717 DEBUG - metricRegistry..................none
+13:48:04.718 DEBUG - metricsTrackerFactory...........none
+13:48:04.718 DEBUG - minimumIdle.....................3
+13:48:04.718 DEBUG - password........................<masked>
+13:48:04.718 DEBUG - poolName........................"HikariPool-1"
+13:48:04.718 DEBUG - readOnly........................false
+13:48:04.718 DEBUG - registerMbeans..................false
+13:48:04.718 DEBUG - scheduledExecutor...............none
+13:48:04.719 DEBUG - scheduledExecutorService........internal
+13:48:04.719 DEBUG - threadFactory...................internal
+13:48:04.719 DEBUG - transactionIsolation............default
+13:48:04.719 DEBUG - username........................"root"
+13:48:04.719 DEBUG - validationTimeout...............5000
+13:48:04.720 INFO  - HikariPool-1 - Starting...
+13:48:05.378 DEBUG - HikariPool-1 - Added connection com.mysql.jdbc.JDBC4Connection@43195e57
+13:48:05.382 INFO  - HikariPool-1 - Start completed.
+13:48:05.432 DEBUG - dbVersion :{5.7.17-log}
+13:48:05.473 INFO  - Connected to database successfully.
+13:48:05.482 DEBUG - HikariPool-1 - Pool stats (total=1, active=1, idle=0, waiting=1)
+13:48:05.510 DEBUG - HikariPool-1 - Added connection com.mysql.jdbc.JDBC4Connection@5a29a4fd
+13:48:05.536 DEBUG - HikariPool-1 - Added connection com.mysql.jdbc.JDBC4Connection@7714683d
+13:48:05.630 INFO  - HikariPool-1 - Shutdown initiated...
+13:48:05.631 DEBUG - HikariPool-1 - Before shutdown stats (total=3, active=1, idle=2, waiting=0)
+13:48:05.637 DEBUG - HikariPool-1 - Closing connection com.mysql.jdbc.JDBC4Connection@5a29a4fd: (connection evicted)
+13:48:05.640 DEBUG - HikariPool-1 - Closing connection com.mysql.jdbc.JDBC4Connection@7714683d: (connection evicted)
+13:48:05.641 INFO  - Storing MINUTE reporting...
+13:48:05.675 DEBUG - HikariPool-1 - After shutdown stats (total=0, active=0, idle=0, waiting=0)
+13:48:05.675 INFO  - HikariPool-1 - Shutdown completed.
+13:48:05.642 ERROR - Error inserting reporting data in DB.
+java.sql.SQLException: HikariDataSource HikariDataSource (HikariPool-1) has been closed.
+	at com.zaxxer.hikari.HikariDataSource.getConnection(HikariDataSource.java:81) ~[HikariCP-2.6.1.jar:?]
+	at com.laputa.server.db.dao.ReportingDBDao.insert(ReportingDBDao.java:248) ~[classes/:?]
+	at com.laputa.server.db.DBManager.lambda$insertReporting$2(DBManager.java:148) ~[classes/:?]
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1142) [?:1.8.0_91]
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:617) [?:1.8.0_91]
+	at java.lang.Thread.run(Thread.java:745) [?:1.8.0_91]
+13:48:05.681 INFO  - Storing MINUTE reporting finished. Time 40. Records saved 0
+13:48:05.681 INFO  - Storing HOURLY reporting...
+13:48:05.681 ERROR - Error inserting reporting data in DB.
+java.sql.SQLException: HikariDataSource HikariDataSource (HikariPool-1) has been closed.
+	at com.zaxxer.hikari.HikariDataSource.getConnection(HikariDataSource.java:81) ~[HikariCP-2.6.1.jar:?]
+	at com.laputa.server.db.dao.ReportingDBDao.insert(ReportingDBDao.java:248) ~[classes/:?]
+	at com.laputa.server.db.DBManager.lambda$insertReporting$2(DBManager.java:148) ~[classes/:?]
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1142) [?:1.8.0_91]
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:617) [?:1.8.0_91]
+	at java.lang.Thread.run(Thread.java:745) [?:1.8.0_91]
+13:48:05.682 INFO  - Storing HOURLY reporting finished. Time 1. Records saved 0
+13:48:05.682 INFO  - Storing DAILY reporting...
+13:53:53.650 INFO  - DB url : jdbc:mysql://localhost:3306/laputa?useUnicode=true&characterEncoding=utf8&characterSetResults=utf8
+13:53:53.651 INFO  - DB user : root
+13:53:53.652 INFO  - Connecting to DB...
+13:53:53.657 DEBUG - HikariPool-1 - configuration:
+13:53:53.665 DEBUG - allowPoolSuspension.............false
+13:53:53.665 DEBUG - autoCommit......................false
+13:53:53.670 DEBUG - catalog.........................none
+13:53:53.670 DEBUG - connectionInitSql...............none
+13:53:53.670 DEBUG - connectionTestQuery............."SELECT 1"
+13:53:53.670 DEBUG - connectionTimeout...............30000
+13:53:53.671 DEBUG - dataSource......................none
+13:53:53.671 DEBUG - dataSourceClassName.............none
+13:53:53.671 DEBUG - dataSourceJNDI..................none
+13:53:53.739 DEBUG - dataSourceProperties............{password=<masked>}
+13:53:53.739 DEBUG - driverClassName.................none
+13:53:53.740 DEBUG - healthCheckProperties...........{}
+13:53:53.740 DEBUG - healthCheckRegistry.............none
+13:53:53.740 DEBUG - idleTimeout.....................600000
+13:53:53.740 DEBUG - initializationFailFast..........true
+13:53:53.740 DEBUG - initializationFailTimeout.......1
+13:53:53.740 DEBUG - isolateInternalQueries..........false
+13:53:53.741 DEBUG - jdbc4ConnectionTest.............false
+13:53:53.741 DEBUG - jdbcUrl........................."jdbc:mysql://localhost:3306/laputa?useUnicode=true&characterEncoding=utf8&characterSetResults=utf8"
+13:53:53.741 DEBUG - leakDetectionThreshold..........0
+13:53:53.741 DEBUG - maxLifetime.....................0
+13:53:53.741 DEBUG - maximumPoolSize.................3
+13:53:53.741 DEBUG - metricRegistry..................none
+13:53:53.741 DEBUG - metricsTrackerFactory...........none
+13:53:53.741 DEBUG - minimumIdle.....................3
+13:53:53.742 DEBUG - password........................<masked>
+13:53:53.742 DEBUG - poolName........................"HikariPool-1"
+13:53:53.742 DEBUG - readOnly........................false
+13:53:53.742 DEBUG - registerMbeans..................false
+13:53:53.742 DEBUG - scheduledExecutor...............none
+13:53:53.742 DEBUG - scheduledExecutorService........internal
+13:53:53.742 DEBUG - threadFactory...................internal
+13:53:53.742 DEBUG - transactionIsolation............default
+13:53:53.743 DEBUG - username........................"root"
+13:53:53.743 DEBUG - validationTimeout...............5000
+13:53:53.744 INFO  - HikariPool-1 - Starting...
+13:53:54.177 DEBUG - HikariPool-1 - Added connection com.mysql.jdbc.JDBC4Connection@43195e57
+13:53:54.180 INFO  - HikariPool-1 - Start completed.
+13:53:54.223 DEBUG - dbVersion :{5.7.17-log}
+13:53:54.233 INFO  - Connected to database successfully.
+13:53:54.283 DEBUG - HikariPool-1 - Pool stats (total=1, active=1, idle=0, waiting=1)
+13:53:54.320 DEBUG - HikariPool-1 - Added connection com.mysql.jdbc.JDBC4Connection@a3ce692
+13:53:54.435 DEBUG - HikariPool-1 - Added connection com.mysql.jdbc.JDBC4Connection@3240ac9e
+13:53:55.767 INFO  - HikariPool-1 - Shutdown initiated...
+13:53:55.768 DEBUG - HikariPool-1 - Before shutdown stats (total=3, active=1, idle=2, waiting=0)
+13:53:55.776 DEBUG - HikariPool-1 - Closing connection com.mysql.jdbc.JDBC4Connection@a3ce692: (connection evicted)
+13:53:55.780 DEBUG - HikariPool-1 - Closing connection com.mysql.jdbc.JDBC4Connection@3240ac9e: (connection evicted)
+13:53:55.784 DEBUG - HikariPool-1 - After shutdown stats (total=0, active=0, idle=0, waiting=0)
+13:53:55.784 INFO  - HikariPool-1 - Shutdown completed.
+13:56:44.306 INFO  - DB url : jdbc:mysql://localhost:3306/laputa?useUnicode=true&characterEncoding=utf8&characterSetResults=utf8
+13:56:44.308 INFO  - DB user : root
+13:56:44.309 INFO  - Connecting to DB...
+13:56:44.313 DEBUG - HikariPool-1 - configuration:
+13:56:44.321 DEBUG - allowPoolSuspension.............false
+13:56:44.321 DEBUG - autoCommit......................false
+13:56:44.321 DEBUG - catalog.........................none
+13:56:44.321 DEBUG - connectionInitSql...............none
+13:56:44.322 DEBUG - connectionTestQuery............."SELECT 1"
+13:56:44.322 DEBUG - connectionTimeout...............30000
+13:56:44.322 DEBUG - dataSource......................none
+13:56:44.322 DEBUG - dataSourceClassName.............none
+13:56:44.322 DEBUG - dataSourceJNDI..................none
+13:56:44.395 DEBUG - dataSourceProperties............{password=<masked>}
+13:56:44.396 DEBUG - driverClassName.................none
+13:56:44.396 DEBUG - healthCheckProperties...........{}
+13:56:44.396 DEBUG - healthCheckRegistry.............none
+13:56:44.396 DEBUG - idleTimeout.....................600000
+13:56:44.396 DEBUG - initializationFailFast..........true
+13:56:44.397 DEBUG - initializationFailTimeout.......1
+13:56:44.397 DEBUG - isolateInternalQueries..........false
+13:56:44.397 DEBUG - jdbc4ConnectionTest.............false
+13:56:44.397 DEBUG - jdbcUrl........................."jdbc:mysql://localhost:3306/laputa?useUnicode=true&characterEncoding=utf8&characterSetResults=utf8"
+13:56:44.398 DEBUG - leakDetectionThreshold..........0
+13:56:44.398 DEBUG - maxLifetime.....................0
+13:56:44.398 DEBUG - maximumPoolSize.................3
+13:56:44.398 DEBUG - metricRegistry..................none
+13:56:44.398 DEBUG - metricsTrackerFactory...........none
+13:56:44.398 DEBUG - minimumIdle.....................3
+13:56:44.399 DEBUG - password........................<masked>
+13:56:44.400 DEBUG - poolName........................"HikariPool-1"
+13:56:44.400 DEBUG - readOnly........................false
+13:56:44.400 DEBUG - registerMbeans..................false
+13:56:44.401 DEBUG - scheduledExecutor...............none
+13:56:44.401 DEBUG - scheduledExecutorService........internal
+13:56:44.401 DEBUG - threadFactory...................internal
+13:56:44.401 DEBUG - transactionIsolation............default
+13:56:44.401 DEBUG - username........................"root"
+13:56:44.401 DEBUG - validationTimeout...............5000
+13:56:44.402 INFO  - HikariPool-1 - Starting...
+13:56:44.764 DEBUG - HikariPool-1 - Added connection com.mysql.jdbc.JDBC4Connection@43195e57
+13:56:44.776 INFO  - HikariPool-1 - Start completed.
+13:56:44.814 DEBUG - dbVersion :{5.7.17-log}
+13:56:44.831 INFO  - Connected to database successfully.
+13:56:44.862 DEBUG - HikariPool-1 - Added connection com.mysql.jdbc.JDBC4Connection@1a33f76a
+13:56:44.863 INFO  - HikariPool-1 - Shutdown initiated...
+13:56:44.863 DEBUG - HikariPool-1 - Before shutdown stats (total=2, active=2, idle=0, waiting=0)
+13:56:44.871 DEBUG - HikariPool-1 - After shutdown stats (total=0, active=0, idle=0, waiting=0)
+13:56:44.872 INFO  - HikariPool-1 - Shutdown completed.
+13:56:53.296 INFO  - DB url : jdbc:mysql://localhost:3306/laputa?useUnicode=true&characterEncoding=utf8&characterSetResults=utf8
+13:56:53.298 INFO  - DB user : root
+13:56:53.299 INFO  - Connecting to DB...
+13:56:53.306 DEBUG - HikariPool-1 - configuration:
+13:56:53.315 DEBUG - allowPoolSuspension.............false
+13:56:53.315 DEBUG - autoCommit......................false
+13:56:53.315 DEBUG - catalog.........................none
+13:56:53.315 DEBUG - connectionInitSql...............none
+13:56:53.316 DEBUG - connectionTestQuery............."SELECT 1"
+13:56:53.316 DEBUG - connectionTimeout...............30000
+13:56:53.316 DEBUG - dataSource......................none
+13:56:53.316 DEBUG - dataSourceClassName.............none
+13:56:53.316 DEBUG - dataSourceJNDI..................none
+13:56:53.369 DEBUG - dataSourceProperties............{password=<masked>}
+13:56:53.369 DEBUG - driverClassName.................none
+13:56:53.369 DEBUG - healthCheckProperties...........{}
+13:56:53.369 DEBUG - healthCheckRegistry.............none
+13:56:53.369 DEBUG - idleTimeout.....................600000
+13:56:53.369 DEBUG - initializationFailFast..........true
+13:56:53.370 DEBUG - initializationFailTimeout.......1
+13:56:53.370 DEBUG - isolateInternalQueries..........false
+13:56:53.370 DEBUG - jdbc4ConnectionTest.............false
+13:56:53.370 DEBUG - jdbcUrl........................."jdbc:mysql://localhost:3306/laputa?useUnicode=true&characterEncoding=utf8&characterSetResults=utf8"
+13:56:53.370 DEBUG - leakDetectionThreshold..........0
+13:56:53.370 DEBUG - maxLifetime.....................0
+13:56:53.370 DEBUG - maximumPoolSize.................3
+13:56:53.370 DEBUG - metricRegistry..................none
+13:56:53.371 DEBUG - metricsTrackerFactory...........none
+13:56:53.371 DEBUG - minimumIdle.....................3
+13:56:53.371 DEBUG - password........................<masked>
+13:56:53.371 DEBUG - poolName........................"HikariPool-1"
+13:56:53.371 DEBUG - readOnly........................false
+13:56:53.371 DEBUG - registerMbeans..................false
+13:56:53.371 DEBUG - scheduledExecutor...............none
+13:56:53.371 DEBUG - scheduledExecutorService........internal
+13:56:53.371 DEBUG - threadFactory...................internal
+13:56:53.372 DEBUG - transactionIsolation............default
+13:56:53.372 DEBUG - username........................"root"
+13:56:53.372 DEBUG - validationTimeout...............5000
+13:56:53.373 INFO  - HikariPool-1 - Starting...
+13:56:53.746 DEBUG - HikariPool-1 - Added connection com.mysql.jdbc.JDBC4Connection@43195e57
+13:56:53.750 INFO  - HikariPool-1 - Start completed.
+13:56:53.789 DEBUG - dbVersion :{5.7.17-log}
+13:56:53.817 INFO  - Connected to database successfully.
+13:56:53.880 DEBUG - HikariPool-1 - Pool stats (total=1, active=1, idle=0, waiting=1)
+13:56:53.912 DEBUG - HikariPool-1 - Added connection com.mysql.jdbc.JDBC4Connection@615e5b43
+13:56:53.996 INFO  - HikariPool-1 - Shutdown initiated...
+13:56:53.996 DEBUG - HikariPool-1 - Before shutdown stats (total=2, active=1, idle=1, waiting=0)
+13:56:54.017 DEBUG - HikariPool-1 - Added connection com.mysql.jdbc.JDBC4Connection@3c08b90f
+13:56:54.029 DEBUG - HikariPool-1 - Closing connection com.mysql.jdbc.JDBC4Connection@615e5b43: (connection evicted)
+13:56:54.030 DEBUG - HikariPool-1 - Closing connection com.mysql.jdbc.JDBC4Connection@3c08b90f: (connection evicted)
+13:56:54.055 DEBUG - HikariPool-1 - After shutdown stats (total=0, active=0, idle=0, waiting=0)
+13:56:54.055 INFO  - HikariPool-1 - Shutdown completed.
+13:57:02.655 INFO  - DB url : jdbc:mysql://localhost:3306/laputa?useUnicode=true&characterEncoding=utf8&characterSetResults=utf8
+13:57:02.657 INFO  - DB user : root
+13:57:02.658 INFO  - Connecting to DB...
+13:57:02.663 DEBUG - HikariPool-1 - configuration:
+13:57:02.669 DEBUG - allowPoolSuspension.............false
+13:57:02.669 DEBUG - autoCommit......................false
+13:57:02.670 DEBUG - catalog.........................none
+13:57:02.670 DEBUG - connectionInitSql...............none
+13:57:02.670 DEBUG - connectionTestQuery............."SELECT 1"
+13:57:02.670 DEBUG - connectionTimeout...............30000
+13:57:02.670 DEBUG - dataSource......................none
+13:57:02.670 DEBUG - dataSourceClassName.............none
+13:57:02.670 DEBUG - dataSourceJNDI..................none
+13:57:02.718 DEBUG - dataSourceProperties............{password=<masked>}
+13:57:02.718 DEBUG - driverClassName.................none
+13:57:02.718 DEBUG - healthCheckProperties...........{}
+13:57:02.718 DEBUG - healthCheckRegistry.............none
+13:57:02.718 DEBUG - idleTimeout.....................600000
+13:57:02.719 DEBUG - initializationFailFast..........true
+13:57:02.719 DEBUG - initializationFailTimeout.......1
+13:57:02.719 DEBUG - isolateInternalQueries..........false
+13:57:02.719 DEBUG - jdbc4ConnectionTest.............false
+13:57:02.719 DEBUG - jdbcUrl........................."jdbc:mysql://localhost:3306/laputa?useUnicode=true&characterEncoding=utf8&characterSetResults=utf8"
+13:57:02.719 DEBUG - leakDetectionThreshold..........0
+13:57:02.719 DEBUG - maxLifetime.....................0
+13:57:02.719 DEBUG - maximumPoolSize.................3
+13:57:02.720 DEBUG - metricRegistry..................none
+13:57:02.720 DEBUG - metricsTrackerFactory...........none
+13:57:02.720 DEBUG - minimumIdle.....................3
+13:57:02.720 DEBUG - password........................<masked>
+13:57:02.720 DEBUG - poolName........................"HikariPool-1"
+13:57:02.720 DEBUG - readOnly........................false
+13:57:02.720 DEBUG - registerMbeans..................false
+13:57:02.720 DEBUG - scheduledExecutor...............none
+13:57:02.720 DEBUG - scheduledExecutorService........internal
+13:57:02.721 DEBUG - threadFactory...................internal
+13:57:02.721 DEBUG - transactionIsolation............default
+13:57:02.721 DEBUG - username........................"root"
+13:57:02.721 DEBUG - validationTimeout...............5000
+13:57:02.722 INFO  - HikariPool-1 - Starting...
+13:57:03.150 DEBUG - HikariPool-1 - Added connection com.mysql.jdbc.JDBC4Connection@43195e57
+13:57:03.154 INFO  - HikariPool-1 - Start completed.
+13:57:03.225 DEBUG - dbVersion :{5.7.17-log}
+13:57:03.229 INFO  - Connected to database successfully.
+13:57:03.259 DEBUG - HikariPool-1 - Added connection com.mysql.jdbc.JDBC4Connection@10e279cf
+13:57:03.296 DEBUG - HikariPool-1 - Pool stats (total=2, active=2, idle=0, waiting=0)
+13:57:03.302 DEBUG - HikariPool-1 - Executed rollback on connection com.mysql.jdbc.JDBC4Connection@10e279cf due to dirty commit state on close().
+13:57:03.302 INFO  - HikariPool-1 - Shutdown initiated...
+13:57:03.303 DEBUG - HikariPool-1 - Before shutdown stats (total=2, active=1, idle=1, waiting=0)
+13:57:03.377 DEBUG - HikariPool-1 - Closing connection com.mysql.jdbc.JDBC4Connection@10e279cf: (connection evicted)
+13:57:03.392 DEBUG - HikariPool-1 - After shutdown stats (total=0, active=0, idle=0, waiting=0)
+13:57:03.392 INFO  - HikariPool-1 - Shutdown completed.
+13:57:23.192 INFO  - DB url : jdbc:mysql://localhost:3306/laputa?useUnicode=true&characterEncoding=utf8&characterSetResults=utf8
+13:57:23.194 INFO  - DB user : root
+13:57:23.194 INFO  - Connecting to DB...
+13:57:23.229 DEBUG - HikariPool-1 - configuration:
+13:57:23.238 DEBUG - allowPoolSuspension.............false
+13:57:23.238 DEBUG - autoCommit......................false
+13:57:23.239 DEBUG - catalog.........................none
+13:57:23.239 DEBUG - connectionInitSql...............none
+13:57:23.239 DEBUG - connectionTestQuery............."SELECT 1"
+13:57:23.240 DEBUG - connectionTimeout...............30000
+13:57:23.240 DEBUG - dataSource......................none
+13:57:23.240 DEBUG - dataSourceClassName.............none
+13:57:23.240 DEBUG - dataSourceJNDI..................none
+13:57:23.380 DEBUG - dataSourceProperties............{password=<masked>}
+13:57:23.381 DEBUG - driverClassName.................none
+13:57:23.381 DEBUG - healthCheckProperties...........{}
+13:57:23.381 DEBUG - healthCheckRegistry.............none
+13:57:23.381 DEBUG - idleTimeout.....................600000
+13:57:23.383 DEBUG - initializationFailFast..........true
+13:57:23.384 DEBUG - initializationFailTimeout.......1
+13:57:23.384 DEBUG - isolateInternalQueries..........false
+13:57:23.384 DEBUG - jdbc4ConnectionTest.............false
+13:57:23.384 DEBUG - jdbcUrl........................."jdbc:mysql://localhost:3306/laputa?useUnicode=true&characterEncoding=utf8&characterSetResults=utf8"
+13:57:23.386 DEBUG - leakDetectionThreshold..........0
+13:57:23.387 DEBUG - maxLifetime.....................0
+13:57:23.387 DEBUG - maximumPoolSize.................3
+13:57:23.387 DEBUG - metricRegistry..................none
+13:57:23.388 DEBUG - metricsTrackerFactory...........none
+13:57:23.388 DEBUG - minimumIdle.....................3
+13:57:23.388 DEBUG - password........................<masked>
+13:57:23.389 DEBUG - poolName........................"HikariPool-1"
+13:57:23.389 DEBUG - readOnly........................false
+13:57:23.390 DEBUG - registerMbeans..................false
+13:57:23.390 DEBUG - scheduledExecutor...............none
+13:57:23.390 DEBUG - scheduledExecutorService........internal
+13:57:23.390 DEBUG - threadFactory...................internal
+13:57:23.390 DEBUG - transactionIsolation............default
+13:57:23.392 DEBUG - username........................"root"
+13:57:23.392 DEBUG - validationTimeout...............5000
+13:57:23.394 INFO  - HikariPool-1 - Starting...
+13:57:23.853 DEBUG - HikariPool-1 - Added connection com.mysql.jdbc.JDBC4Connection@43195e57
+13:57:23.856 INFO  - HikariPool-1 - Start completed.
+13:57:23.944 DEBUG - dbVersion :{5.7.17-log}
+13:57:23.948 INFO  - Connected to database successfully.
+13:57:23.984 DEBUG - HikariPool-1 - Pool stats (total=1, active=1, idle=0, waiting=1)
+13:57:24.064 DEBUG - HikariPool-1 - Added connection com.mysql.jdbc.JDBC4Connection@10e279cf
+13:57:24.127 DEBUG - HikariPool-1 - Added connection com.mysql.jdbc.JDBC4Connection@4c0df68c
+13:57:24.166 DEBUG - HikariPool-1 - Executed rollback on connection com.mysql.jdbc.JDBC4Connection@10e279cf due to dirty commit state on close().
+13:57:24.166 ERROR - Error inserting purchase data in DB. Duplicate entry 'test@gmail.com-123456' for key 'PRIMARY'
+13:57:24.215 INFO  - HikariPool-1 - Shutdown initiated...
+13:57:24.216 DEBUG - HikariPool-1 - Before shutdown stats (total=3, active=1, idle=2, waiting=0)
+13:57:24.373 DEBUG - HikariPool-1 - Closing connection com.mysql.jdbc.JDBC4Connection@10e279cf: (connection evicted)
+13:57:24.375 DEBUG - HikariPool-1 - Closing connection com.mysql.jdbc.JDBC4Connection@4c0df68c: (connection evicted)
+13:57:24.472 DEBUG - HikariPool-1 - After shutdown stats (total=0, active=0, idle=0, waiting=0)
+13:57:24.472 INFO  - HikariPool-1 - Shutdown completed.

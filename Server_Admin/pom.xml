@@ -7,7 +7,7 @@
     </parent>
   <modelVersion>4.0.0</modelVersion>
   <groupId> com.laputa</groupId>
-  <artifactId>server-admin</artifactId>
+  <artifactId>server_admin</artifactId>
   <packaging>war</packaging>
 
 
