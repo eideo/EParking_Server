@@ -80,7 +80,7 @@
 									<c:forEach items="${userList}" var="user" varStatus="vs">
 										<tr>
 											<td class='center' style="width: 30px;">
-												<label><input type='radio' name="fhadmin" value="${user.USERNAME }" onclick="setUser(this.value)" class="ace"/><span class="lbl"></span></label>
+												<label><input type='radio' name="admin" value="${user.USERNAME }" onclick="setUser(this.value)" class="ace"/><span class="lbl"></span></label>
 											</td>
 											<td class='center' style="width: 30px;">${vs.index+1}</td>
 											<td class="center">${user.NUMBER }</td>

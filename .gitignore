@@ -3,12 +3,5 @@
 /eparking.iml
 /server-admin/server-admin.iml
 /server-admin/target
-/gps
-/nettys
-/server-hardware/core/target
-/server-hardware/launcher/target
-/server-hardware/redis-client/target
-/server-hardware/tcp-app-server/target
-/server-hardware/tools/target
-/server-hardware-tests/target
-/logs
+
+
